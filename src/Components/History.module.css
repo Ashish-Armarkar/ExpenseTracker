@@ -1,0 +1,16 @@
+.mainDiv {
+    height: 700px;
+    border: 2px soild rgb(0, 0, 0);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.635);
+    margin-top: 100px;
+
+}
+
+.Box {
+    height: 650px;
+    overflow: scroll;
+}
+
+.Box::-webkit-scrollbar {
+    visibility: hidden;
+}

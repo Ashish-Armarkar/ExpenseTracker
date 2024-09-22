@@ -1,0 +1,50 @@
+.form {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.lable {
+    font-size: 18px;
+}
+
+.input {
+    width: 400px;
+}
+
+.inputDecription {
+    display: flex;
+}
+
+.textHelperNegative {
+    width: fit-content;
+}
+
+.textHelperPositive {
+    width: fit-content;
+
+}
+
+.button {
+    width: 200px;
+}
+
+.ActionButtons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* ----------------------------------------media Queries for small device------------------------------------- */
+@media screen and (max-width: 426px) {
+    .input {
+        width: 300px;
+    }
+
+    .button {
+        width: 100px;
+    }
+}
